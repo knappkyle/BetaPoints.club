@@ -6,7 +6,7 @@ By: Kyle Knapp
  
 ## Description
 
-Made for my fraternity during my term as vice president to track individual attendence of brothers in Lambda Chi Alpha. Created a C++ script within the website to sort the leaderboard from most points to the least amount. 
+Made for my fraternity during my term as vice president to track individual attendence of brothers in Lambda Chi Alpha. Created a C++ script within the website to sort the leaderboard from most points to the least amount of points. 
 	
 ## Contributing
 
@@ -20,4 +20,5 @@ Made for my fraternity during my term as vice president to track individual atte
 ## Languages/Tools
 
 Languages: HTML, CSS, C++.
+
 Tools: Visual Studio 2017.
