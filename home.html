@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Lambda Home </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="shortcut icon" type="image/x-icon" href="logo.ico" />
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+<center><img src="test4.gif"></center>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="home.html">Home</a>
+  <a href="leaderboard.html">Leaderboard</a>
+  <!--<a href="calander.html">Leaderboard</a>-->
+  <a href="prizes.html">Beta Point Prizes</a>
+</div>
+
+<div id="main">
+  
+
+  <span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+  <div id="centerMain">
+  <h1 style="font-size:50px"> Lambda Chi Alpha Phi Mu Zeta | Fall 2018 </h1>
+    <h1 style="font-size:40px"> Chapter Beta Point System </h1>
+ <p><b>Grades</b><br />
+ Finish the semester with 4.0 GPA - 10pts<br />
+ Finish the semester with 3.5 GPA or higher - 7pts<br />
+ Finish the semester with 3.0 GPA or higher - 5pts <br />
+<br />
+
+<b>Service</b><br />
+Volunteer hours at chapter event: 1pt per hour<br />
+Volunteer hours at non-chapter organized events: 2pts per hour<br />
+Help High Pi around his house: 8pts <br />
+<br />
+<b>Dues</b><br />
+Pay off dues in full before ritual: 5pts<br />
+<br />
+<b>Intramurals</b><br />
+Participation (per game): 2pts<br />
+Attendance (per game): 2pts<br />
+<br />
+<b>Philanthropies </b><br />
+Attend/Donate to another fraternities/sororities philanthropy: 3pts<br />
+Help set up for other fraternity/sororities philanthropy: 3pts <br />
+Attend Union Tables: 3pts<br />
+<br />
+<b>Recruitment</b><br />
+Attend one day of formal recruitment: 2pts<br />
+Attend both days of Formal Recruitment: 3pts<br />
+Attend Union Tables: 3pts<br />
+<br />
+<b>Brotherhoods</b><br />
+Attend a brotherhood event: 3pt <br />
+<br />
+<b>Involvement</b><br />
+Involvement in organization/club outside Lambda Chi Alpha: 3pts<br />
+Acquire a position in outside organization/club: 4pts<br />
+Attend a major campus event, such as campus fest: 2pts<br />
+Host tables in a major campus event, such as campus fest: 3pts<br />
+</p>
+  </div>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+
+
+</body>
+</html>

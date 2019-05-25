@@ -1,0 +1,88 @@
+body {
+	background-color: white;
+	background-image: url("wallpaper12.png");
+	font-family: "Futura", Garamond;
+    transition: background-color .5s;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #52237f;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 90px;
+}
+
+.sidenav a {
+    padding: 10px 10px 10px 32px;
+    text-decoration: none;
+    font-size: 35px;
+    color: #d4a037;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: white;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#centerMain {
+	text-align: center;
+	padding-top: 1px;
+	font-size:18px
+}
+
+#centerCal {
+	text-align: center;
+	padding-top: 5px;
+	font-size:30px
+}
+
+table {
+    width:30%;
+	margin:1em auto;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+	font-weight:bold;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+   font-weight:bold;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+	font-weight:bold;
+}
